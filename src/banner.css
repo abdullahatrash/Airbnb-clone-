@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+.banner {
+  font-family: "PT Sans Narrow", sans-serif;
+  background: url("https://media.cntraveler.com/photos/5e6fad79eecf0e0008ffbd78/3:1/w_2999,h_999,c_limit/Louvre-2020-GettyImages-881064712.jpg")
+    center center;
+  height: 50vh;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+  align-items: center;
+}
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  width: 600px;
+  border-radius: 20px;
+}
+.banner__info {
+  background-color: rgba(0, 0, 0, 75%);
+  color: white;
+  /* padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px; */
+  padding: 40px;
+  margin: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}

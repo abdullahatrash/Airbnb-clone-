@@ -3,7 +3,12 @@ import "./card.css";
 function Card({ src, title, description, price }) {
   return (
     <div className="card">
-      <h1>Card</h1>
+      <img src={src} alt="" />
+      <div className="card__info">
+        <h1>{title}</h1>
+        <h4>{description}</h4>
+        <h3>{price}</h3>
+      </div>
     </div>
   );
 }

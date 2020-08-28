@@ -36,6 +36,11 @@
   width: 300px;
   border: none;
   border-radius: 20px;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+.banner__info:hover {
+  transform: scale(1.07);
 }
 
 .banner__info > button {

@@ -38,7 +38,7 @@ function Home() {
           price="$81 USD / night"
         />
         <Card
-          src="https://a0.muscache.com/im/pictures/ea38da34-7082-45a6-895f-dd87019064ee.jpg?aki_policy=large"
+          src="https://a0.muscache.com/im/pictures/e1dcf3f4-b3e0-4de5-ab62-3cfd3b394134.jpg?aki_policy=large"
           title="BNB RENTING chez Laurent "
           description="100m beach cosy studio 2pers center Antibes"
           price="€202/ night"
